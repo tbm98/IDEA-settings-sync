@@ -1,4 +1,4 @@
-<templateSet group="Fflutter generate snippets">
+<templateSet group="Flutter generate snippets">
   <template name="jsonserializable" value="import 'package:json_annotation/json_annotation.dart';&#10;&#10;part '$FILE_NAME$.g.dart';&#10;&#10;@JsonSerializable()&#10;class $class_name$ {&#10;  const $class_name$({});&#10;  &#10;  factory $class_name$.fromJson(Map&lt;String, dynamic&gt; json) =&gt;&#10;      _$$$class_name$FromJson(json);&#10;&#10;  Map&lt;String, dynamic&gt; toJson() =&gt; _$$$class_name$ToJson(this);&#10;  $code$&#10;}" description="Create a JsonSerializable template" toReformat="false" toShortenFQNames="true">
     <variable name="FILE_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <variable name="class_name" expression="" defaultValue="" alwaysStopAt="true" />
