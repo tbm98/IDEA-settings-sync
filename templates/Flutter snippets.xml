@@ -51,4 +51,11 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
+  <template name="unittests" value="import 'package:flutter_test/flutter_test.dart';&#10;&#10;void main() {&#10;  test('$description$', () {&#10;    $code$&#10;  });&#10;}" description="Create Unit test template" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
 </templateSet>
