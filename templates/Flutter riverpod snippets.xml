@@ -58,10 +58,9 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="scopedprovider" value="final $name$ = ScopedProvider&lt;$type$&gt;(($a$){&#10;  return $code$;&#10;});" description="ScopedProvider template" toReformat="false" toShortenFQNames="true">
+  <template name="scopedprovider" value="final $name$ = ScopedProvider&lt;$type$&gt;((ref){&#10;  return $code$;&#10;});" description="ScopedProvider template" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
