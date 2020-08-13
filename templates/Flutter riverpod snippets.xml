@@ -5,4 +5,15 @@
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="statenotifierprovider" value="final $name$Provider = StateNotifierProvider((ref) =&gt; $code$);&#10;" description="StateNotifierProvider template" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="stateprovider" value="final $name$Provider = StateProvider&lt;$type$&gt;((ref) =&gt; $code$);&#10;" description="StateProvider template" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
