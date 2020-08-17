@@ -1,4 +1,10 @@
 <templateSet group="Flutter riverpod snippets">
+  <template name="provider" value="final $NAME$Provider = Provider&lt;$TYPE$&gt;((ref) {&#10;    return $CODE$;&#10;});" description="Create a Provider and lets you prefix it with whatever, for example Stream." toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
   <template name="scopedprovider" value="final $name$ = ScopedProvider&lt;$type$&gt;((ref){&#10;  return $code$;&#10;});" description="ScopedProvider template" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
