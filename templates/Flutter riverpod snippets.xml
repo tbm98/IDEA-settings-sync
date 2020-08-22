@@ -5,4 +5,10 @@
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="consumer" value="Consumer((context, watch) {&#10;    return $CODE$;&#10;})" description="Create a Consumer widget of Riverpod" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
