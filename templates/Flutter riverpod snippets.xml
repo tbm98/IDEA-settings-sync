@@ -22,4 +22,10 @@
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="changenotifierprovider" value="final $name$Provider = ChangeNotifierProvider&lt;$type$&gt;((ref) {&#10;  $code$&#10;});&#10;" description="Create ChangeNotifierProvider template" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
